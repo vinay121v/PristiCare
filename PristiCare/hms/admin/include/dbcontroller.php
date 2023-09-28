@@ -1,7 +1,7 @@
 <?php
 $DB_host = "localhost";
 $DB_user = "root";
-$DB_pass = "1234567";
+$DB_pass = "12345";
 $DB_name = "ingram";
 try
 {
