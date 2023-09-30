@@ -46,7 +46,7 @@
 								</a>
 							</li>
 <li>
-								<a href="manage-medhistory.php">
+								<!-- <a href="manage-medhistory.php">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-list"></i>
@@ -55,7 +55,7 @@
 											<span class="title"> criminal History </span>
 										</div>
 									</div>
-								</a>
+								</a> -->
 							</li>
 
 						</ul>

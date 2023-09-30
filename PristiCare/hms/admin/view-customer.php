@@ -103,16 +103,16 @@ Customers Details</td></tr>
     <tr>
     <th>Customers Gender</th>
     <td><?php  echo $row['customerGender'];?></td>
-    <th>Customers Age</th>
-    <td><?php  echo $row['customerAge'];?></td>
+    <th>customer Reg Date</th>
+    <td><?php  echo $row['CreationDate'];?></td>
   </tr>
-  <tr>
+  <!-- <tr>
     
     <th>Customers criminal History(if any)</th>
     <td><?php  echo $row['customerMedhis'];?></td>
      <th>customer Reg Date</th>
     <td><?php  echo $row['CreationDate'];?></td>
-  </tr>
+  </tr> -->	
  
 <?php }?>
 </table>

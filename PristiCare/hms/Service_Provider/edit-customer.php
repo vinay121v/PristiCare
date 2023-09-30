@@ -126,7 +126,7 @@ Customer Address
 </label>
 <textarea name="pataddress" class="form-control" required="true"><?php  echo $row['customerAdd'];?></textarea>
 </div>
-<div class="form-group">
+<!-- <div class="form-group">
 <label for="fess">
 Customer Age
 </label>
@@ -137,7 +137,7 @@ Customer Age
  criminal History
 </label>
 <textarea type="text" name="medhis" class="form-control"  placeholder="Enter customer criminal History(if any)" required="true"><?php  echo $row['customerMedhis'];?></textarea>
-</div>	
+</div>	 -->
 <div class="form-group">
 <label for="fess">
  Creation Date

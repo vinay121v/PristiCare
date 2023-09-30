@@ -8,10 +8,12 @@ if(strlen($_SESSION['id']==0)) {
 
 if(isset($_POST['submit']))
 {
-$workerspecilization=$_POST['workerspecilization'];
-$sql=mysqli_query($con,"insert into workerSpecilization(specilization) values('$workerspecilization')");
+$workerspecialization=$_POST['workerspecilization'];
+$sql=mysqli_query($con,"insert into workerSpecilization (specilization) values('$workerspecialization')");
 $_SESSION['msg']="Worker Specialization added successfully !!";
 }
+
+
 //Code Deletion
 if(isset($_GET['del']))
 {
@@ -86,7 +88,7 @@ $_SESSION['msg']="data deleted !!";
 															<label for="exampleInputEmail1">
 																Worker Specialization
 															</label>
-							<input type="text" name="workerSpecialization" class="form-control"  placeholder="Enter worker Specialization">
+							<input type="text" name="workerspecilization" class="form-control"  placeholder="Enter worker Specialization">
 														</div>
 												
 														

@@ -137,18 +137,18 @@ Customer Address
 </label>
 <textarea name="pataddress" class="form-control"  placeholder="Enter Customer Address" required="true"></textarea>
 </div>
-<div class="form-group">
+<!-- <div class="form-group">
 <label for="fess">
  Customer Age
 </label>
 <input type="text" name="patage" class="form-control"  placeholder="Enter Customer Age" required="true">
-</div>
-<div class="form-group">
+</div> -->
+<!-- <div class="form-group">
 <label for="fess">
  criminal History
 </label>
 <textarea type="text" name="medhis" class="form-control"  placeholder="Enter Customer criminal History(if any)" required="true"></textarea>
-</div>	
+</div>	 -->
 
 <button type="submit" name="submit" id="submit" class="btn btn-o btn-primary">
 Add

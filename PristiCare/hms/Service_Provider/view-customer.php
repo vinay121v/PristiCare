@@ -86,7 +86,7 @@ while ($row=mysqli_fetch_array($ret)) {
 <table border="1" class="table table-bordered">
  <tr align="center">
 <td colspan="4" style="font-size:20px;color:blue">
- customer Details</td></tr>
+ Customer Details</td></tr>
 
     <tr>
     <th scope>Customer Name</th>
@@ -103,16 +103,16 @@ while ($row=mysqli_fetch_array($ret)) {
     <tr>
     <th>Customer Gender</th>
     <td><?php  echo $row['customerGender'];?></td>
-    <th>Customer Age</th>
-    <td><?php  echo $row['customerAge'];?></td>
+    <th>customer Reg Date</th>
+    <td><?php  echo $row['CreationDate'];?></td>
   </tr>
-  <tr>
+  <!-- <tr>
     
     <th>Customer criminal History(if any)</th>
     <td><?php  echo $row['customerMedhis'];?></td>
      <th>customer Reg Date</th>
     <td><?php  echo $row['CreationDate'];?></td>
-  </tr>
+  </tr> -->
  
 <?php }?>
 </table>
